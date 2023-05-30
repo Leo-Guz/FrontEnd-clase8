@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabriela&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Gabriela', serif;
+}
+
+header img {
+  display: flex;
+  height: 200px;
+}
+
+header {
+  background-color: #2b487a;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+
+h1 {
+  margin-left: 300px;
+  color: white;
+}
+
+main {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+section {
+  padding: 20px;
+  background-color: #5f82bf;
+  width: 25%;
+}
+
+section.sobreMi {
+  text-align: center;
+  background: none;
+  padding: 0%;
+  margin-top: 50px;
+  width: 90% ;
+}
+
+section > a {
+  padding: auto;
+}
+
+h2 {
+  margin-bottom: 10px;
+  background-color: #2b487a;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+  font-style: italic;
+}
+
+dt {
+  font-weight: bold;
+}
+
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px 0px;
+  background-color: #2b487a;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+ 
+section.section-info {
+  color: white;
+  margin-top: 50px;
+  width: 97%;
+  font-style: italic;
+  padding: auto;
+  background-color:#2b487a;
+}
+.span-info {
+  font-size: 30px;
+}
+.section-img {
+  width: 20%;
+}
+.img-info {
+  width: 100%;
+  border-radius: 15px;
+}
+div {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+}
